@@ -60,6 +60,8 @@ Git commands are issued immediately and files modified. You can use `git status`
 If you are not using git (I can't imagine why you would do that), then instead of issuing `git mv ...` commands, it just does `mv ...`. This way is somewhat risky. If your files are in a git repo and it all goes pear shaped, it's a simple operation to back track and undo all the changes.
 
 ## Getting started
+Current Node versions don't work with this tool, but Node v16.20.2 does. 
+If you have nvm installed, you can run `nvm use` to switch to it. Otherwise, install it from https://nodejs.org/en/download/releases/
 
 ```
 cd /path/to/your/project
